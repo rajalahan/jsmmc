@@ -54,4 +54,22 @@ Seriously!!
   ls
   ls -a
   git status
+--------
+add &commit
+add - adds new or changed files in your working directory to the Git staging area
+  git add <-file name->, .
+  commit - it is the record of change
+    git commit -m "some message"
 
+--untracked  new files that git doesn't yet track
+-- modified changed
+-- staged file is ready to be commited
+-- unmodified unchanged
+
+ Check aftere Add and Modification:
+  git status
+  Will seems untracked and modified
+Nedd to Add:
+  git add .
+  git commit - m "some message"
+  git push origin main
