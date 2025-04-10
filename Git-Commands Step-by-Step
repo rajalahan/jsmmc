@@ -8,6 +8,8 @@ Ex. Banking Account Keeping system
 
 1) Track the history
 2) Collaborate
+
+Git Installation
 ------------------------------------------
 Github
 Website that allows developers to store and manage their code using Git.
@@ -16,4 +18,40 @@ In the form of Folder known as Repository. In short Repo.
 
 Create the Repo (new one) -- Public --Tick the Readme.mb
 ------------------------------------------
+
+Setting up Git
+
+VSCode
+Windows (Git Bash)
+Mac (Terminal)
+Verfiy: git --version
+
+-------------------------------------------
+Git commands
+  clear
+  git --version
+  ls
+  pwd
+-------------------------------------------
+Configuration Git
+  git config --global user.name "rajalahan"
+  git config --global user.email "raja_lahan@hotmail.com"
+  git config --list
+
+Setup VSCode --Open
+  Create Folder on local drive D
+  Open Folder - Apears Folder--Outline--Timeline
+----------------------------------------------
+Clone & Status
+  Clone - Cloning a repository on our local machine
+  git clone <- some link->
+  Status - displays the state of the code
+  git status
+  Copy the https of Repo & paste on the terminal of VSCode
+  git clone https://github.com/rajalahan/jsmmc.git
+  cd chage the 2nd class of directory
+Seriously!!
+  ls
+  ls -a
+  git status
 
