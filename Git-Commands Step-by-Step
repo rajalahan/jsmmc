@@ -94,3 +94,12 @@ Init Command
    git checkout <-branch name-> (to navigate)
    git checkout -b <-new branch name-> (to create the new branch)
    git branch -d <-branch name-> (to delete the branch)
+
+   --------------------------------------
+
+   PR Merge, Mannual, undoing change
+   Pull Command
+    git pull origin main
+      # used to fetch and downaload content from a remote repo and
+      # immediatly update the local repo to match the content.
+
